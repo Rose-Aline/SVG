@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="328.47" height="209.18" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 328.47 209.18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #80a6c1;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7, .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15, .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8, .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17, .cls-18 {
+        fill: #15a6a7;
+      }
+
+      .cls-17, .cls-19, .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom_9);
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9, .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 6px;
+      }
+
+      .cls-25 {
+        letter-spacing: .02em;
+      }
+
+      .cls-26 {
+        letter-spacing: .01em;
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-28 {
+        letter-spacing: .03em;
+      }
+
+      .cls-29 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #0c0c0d;
+      }
+
+      .cls-4 {
+        fill: #884fc2;
+      }
+
+      .cls-5 {
+        fill: #5956c1;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+      
+
+@keyframes header_in {
+  0% {
+    transform: scaleY(0);
+  }
+  15%, 100% {
+    transform: scaleY(1);
+  }
+  80%{opacity: 1;}
+  100%{ opacity: 0;}
+}
+
+@keyframes right_in {
+  0% {
+    transform: scaleX(0);
+  } 
+  15% {
+    transform: scaleX(0);
+  }
+  25%, 100% {
+    transform: scaleX(1);
+  }  80%{opacity: 1;}
+  100%{ opacity: 0;}
+}
+
+@keyframes left_in {
+  0% {
+    transform: scaleX(0);
+  } 
+  25% {
+    transform: scaleX(0);
+  }
+  40%, 100% {
+    transform: scaleX(1);
+  }  80%{opacity: 1;}
+  100%{ opacity: 0;}
+}
+
+@keyframes footer_in {
+   0% {
+    transform: scaleY(0);
+  }
+  40% {
+    transform: scaleY(0);
+  }
+  60% {
+    transform: scaleY(1); /* Adjust the scale factor as needed */
+  }  80%{opacity: 1;}
+  100%{ opacity: 0;}
+}
+
+
+#footer {
+  transform-origin: center bottom;
+  transform-box: fill-box;
+  animation: footer_in 3s ease-in-out infinite; /* Adjust the duration (6s in this case) */
+}
+
+#right {
+  transform-origin: center right;
+  transform-box: fill-box;
+  animation: right_in 3s ease-in-out infinite; /* Adjust the duration (6s in this case) */
+}
+
+#left {
+  transform-origin: center left;
+  transform-box: fill-box;
+  animation: left_in 3s ease-in-out infinite; /* Adjust the duration (6s in this case) */
+}
+
+#header {
+  transform-origin: center top;
+  transform-box: fill-box;
+  animation: header_in 3s ease-in-out infinite; /* Adjust the duration as needed */
+}
+
+#laptop text {
+  opacity: 0;
+  animation: fadeIn 10s ease forwards infinite;
+}
+
+#laptop .line1 {
+  animation-delay: 0.5s;
+}
+
+#laptop .line2 {
+  animation-delay: 1s;
+}
+
+#laptop .line3 {
+  animation-delay: 1.5s;
+}
+
+#laptop .line4 {
+  animation-delay: 2s;
+}
+
+#laptop .line5 {
+  animation-delay: 2.5s;
+}
+
+#laptop .line6 {
+  animation-delay: 3s;
+}
+
+#laptop .line7 {
+  animation-delay: 3.5s;
+}
+
+#laptop .line8 {
+  animation-delay: 4s;
+}
+
+#laptop .line9 {
+  animation-delay: 4.5s;
+}
+
+#laptop .line10 {
+  animation-delay: 5s;
+}
+
+#laptop .line11 {
+  animation-delay: 5.5s;
+}
+
+@keyframes fadeIn {
+  50% {
+    opacity: 1;
+  }
+}
+
+    </style>
+
+    
+    <linearGradient id="Dégradé_sans_nom_9" data-name="Dégradé sans nom 9" x1="229.53" y1="124.39" x2="247.71" y2="124.39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7b69f2"/>
+      <stop offset="0" stop-color="#7b69f2"/>
+      <stop offset=".15" stop-color="#945edc"/>
+      <stop offset=".41" stop-color="#bc4cb8"/>
+      <stop offset=".62" stop-color="#d541a3"/>
+      <stop offset=".75" stop-color="#df3e9b"/>
+    </linearGradient>
+  </defs>
+  <g id="laptop">
+    <rect class="cls-5" x="53.94" y="46.48" width="172.24" height="119.29" rx="3.71" ry="3.71"/>
+    <path class="cls-3" d="m60.59,152.41V57.96c0-1.73,1.52-3.13,3.4-3.13h151.17c1.88,0,3.4,1.4,3.4,3.13v94.45c0,1.73-1.52,3.13-3.4,3.13H63.99c-1.88,0-3.4-1.4-3.4-3.13Z"/>
+    <rect class="cls-5" x="37.35" y="168.15" width="214.59" height="8.09"/>
+    <polygon class="cls-1" points="53.94 165.77 37.35 168.15 251.94 168.15 222.47 165.77 53.94 165.77"/>
+    <rect class="cls-3" x="223.64" y="72.31" width="50.61" height="103.93" rx="10.09" ry="10.09"/>
+    <g>
+      <path class="cls-1" d="m274.25,85.06v-5.34c0-4.09-3.32-7.41-7.41-7.41h-35.79c-4.09,0-7.41,3.32-7.41,7.41v5.34h50.61Zm-25.83-10.87c.8,0,1.44.65,1.44,1.44s-.65,1.44-1.44,1.44-1.44-.65-1.44-1.44.65-1.44,1.44-1.44Zm-9.02,4.78h18.54v1.93h-18.54v-1.93Zm-5.71-1.56c1.09,0,1.98.89,1.98,1.98s-.89,1.98-1.98,1.98-1.98-.89-1.98-1.98.89-1.98,1.98-1.98Z"/>
+      <path class="cls-1" d="m223.64,163.49v5.34c0,4.09,3.32,7.41,7.41,7.41h35.79c4.09,0,7.41-3.32,7.41-7.41v-5.34h-50.61Zm25.67,9.85c-2.19,0-3.96-1.77-3.96-3.96s1.77-3.96,3.96-3.96,3.96,1.77,3.96,3.96-1.77,3.96-3.96,3.96Z"/>
+    </g>
+    <text x="70" y="70" font-size="5.5" fill="white" class="line1">&lt;!DOCTYPE html&gt;</text>
+    <text x="70" y="77" font-size="5.5" fill="white" class="line2">&lt;html&gt;</text>
+    <text x="70" y="84" font-size="5.5" fill="white" class="line3">&lt;head&gt;</text>
+    <text x="70" y="91" font-size="5.5" fill="white" class="line4">&lt;title&gt; MMI Montbeliard &lt;/title&gt;</text>
+    <text x="70" y="98" font-size="5.5" fill="white" class="line5">&lt;/head&gt;</text>
+
+    <text x="70" y="110" font-size="5.5" fill="white" class="line6">&lt;body&gt;</text>
+    <text x="70" y="117" font-size="5.5" fill="white" class="line7">&lt;button style="background: linear-gradient</text>
+    <text x="70" y="124" font-size="5.5" fill="white" class="line8">(to right, #FF5733, #E8308C); "&gt;</text>
+    <text x="70" y="131" font-size="5.5" fill="white" class="line9">Rejoignez MMI &lt;/button&gt;</text>
+    <text x="70" y="138" font-size="5.5" fill="white" class="line10">&lt;/body&gt;</text>
+    <text x="70" y="145" font-size="5.5" fill="white" class="line11">&lt;/html&gt;</text>
+
+  </g>
+
+  <g id="layout">
+    <rect id="header" class="cls-4" x="229.53" y="91.65" width="38.71" height="12"/>
+    <rect id="footer" class="cls-4" x="229.53" y="145.89" width="38.24" height="12"/>
+    <rect id="left" class="cls-2" x="229.53" y="106.13" width="18.18" height="36.53"/>
+    <rect id="right" class="cls-5" x="249.86" y="106.13" width="17.91" height="36.53"/>
+  </g>
+</svg>

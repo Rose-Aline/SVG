@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="310.59" height="247.06" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310.59 247.06">
+
+  <defs>
+    <linearGradient id="Gradient" data-name="Gradient" x1="167.23" y1="140.11" x2="219.31" y2="140.11" gradientTransform="translate(201.34 -77.28) rotate(67.61)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7b69f2"/>
+      <stop offset="0" stop-color="#7b69f2"/>
+      <stop offset=".15" stop-color="#945edc"/>
+      <stop offset=".41" stop-color="#bc4cb8"/>
+      <stop offset=".62" stop-color="#d541a3"/>
+      <stop offset=".75" stop-color="#df3e9b"/>
+    </linearGradient>
+
+<style>
+  /* SVG styles */
+          .cls-1, .cls-2, .cls-3 {
+            stroke: #fff;
+          }
+
+          .cls-4 {
+            fill: #9da5be;
+          }
+
+          .cls-4, .cls-5, .cls-6, .cls-7 {
+            stroke-width: 0px;
+          }
+
+          .cls-5 {
+            fill: #6c87c4;
+          }
+
+          .cls-6 {
+            fill: url(#Gradient);
+          }
+
+          .cls-2 {
+            stroke-width: 1.5px;
+          }
+
+          .cls-2, .cls-3 {
+            fill: none;
+          }
+
+         .cls-8{
+            fill: none;
+          }
+
+          .cls-7 {
+            fill: #625dc3;
+          }
+          
+          #Courbe path {
+            stroke-width: 2px; 
+          }
+
+  /* Animations */
+
+          #Ligne rect,
+          #Courbe path,
+          #Ligne circle,
+          #Courbe rect{
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+          }
+
+          svg:hover #Ligne path,
+          svg:hover #Ligne rect,
+          svg:hover #Courbe path,
+          svg:hover #Courbe rect,
+          svg:hover #Ligne circle,
+          svg:hover #LigneDrawing,
+          svg:hover #CourbeDrawing {
+            animation: drawLineAndCurve 10s ease forwards;
+          }
+
+          @keyframes drawLineAndCurve {
+            to {
+              stroke-dashoffset: 0;
+            }
+          }
+
+          /* Additional styles for non-animated elements */
+          .cls-1 {
+            fill: none;
+            stroke-width: 1.5px;
+            }
+
+          .cls-8 , .cls-9 {
+            stroke: url(#Gradient);
+            stroke-width: 2px;
+
+          }
+
+</style>
+
+
+  </defs>
+
+  <g id="Plume">
+    <g>
+      <path class="cls-7" d="m138.46,160.48c-1.09-.53-2-1.44-2.5-2.65-1.09-2.64.17-5.67,2.81-6.76.76-.31,1.55-.4,2.32-.34l12.69-30.46-37.6,28.15s8.96,10.95,2.49,25.51c8.5,3.27,11.3,4.35,12.23,4.7-.02,0-.04-.02-.05-.02"/>
+      <path class="cls-6" d="m138.46,160.48l-7.61,18.12s.07.03.05.02c.91.41,3.65,1.64,11.95,5.37,5.78-14.85,19.86-16.2,19.86-16.2l-6.38-45.69-12.46,29.92c.44.45.79.98,1.05,1.6,1.09,2.64-.17,5.67-2.82,6.76"/>
+    </g>
+    <g>
+      <polygon class="cls-5" points="118.66 173.92 115.84 175.09 113.57 181.94 126.61 188.27 130.9 178.63 118.66 173.92"/>
+      <polygon class="cls-4" points="144.02 186.83 142.85 184 130.9 178.63 126.61 188.27 140.75 193.26 144.02 186.83"/>
+    </g>
+  </g>
+
+  <g id="Courbe_grey">
+    <path class="cls-8" d="m46.8,152.82c-1.27,1.56,32.1-75.76,105.54-43"/>
+    <path class="cls-8" d="m164.35,114.45c-.66,2.93,76.14,31.17,105.21-43.81"/>
+    <rect class="cls-8" x="37.54" y="152.48" width="12.62" height="12.62" transform="translate(207.3 179.37) rotate(112.61)"/>
+    <rect class="cls-8" x="266.54" y="58.16" width="12.62" height="12.62" transform="translate(437.27 -162.62) rotate(112.61)"/>
+      <rect class="cls-2" x="152.04" y="105.32" width="12.62" height="12.62" transform="translate(322.29 8.38) rotate(112.61)"/>
+</g>
+
+  <g id="Courbe">
+    <path class="cls-3" d="m46.8,152.82c-1.27,1.56,32.1-75.76,105.54-43"/>
+    <path class="cls-3" d="m164.35,114.45c-.66,2.93,76.14,31.17,105.21-43.81"/>
+    <rect class="cls-2" x="37.54" y="152.48" width="12.62" height="12.62" transform="translate(207.3 179.37) rotate(112.61)"/>
+    <rect class="cls-2" x="266.54" y="58.16" width="12.62" height="12.62" transform="translate(437.27 -162.62) rotate(112.61)"/>
+  </g>
+
+
+<g id="Ligne">
+  <circle class="cls-2" cx="76.3" cy="77.46" r="6.85"/>
+  <circle class="cls-2" cx="240.6" cy="145.89" r="6.85"/>
+  <g>
+    <rect id="LigneDrawing" class="cls-1" x="116.74" y="57.16" width="1.5" height="76.08" transform="translate(-15.25 167.65) rotate(-67.64)"/>
+    <rect id="CourbeDrawing" class="cls-1" x="198.16" y="91.01" width="1.5" height="75.38" transform="translate(4.22 263.69) rotate(-67.64)"/>
+  </g>
+</g>
+</svg>

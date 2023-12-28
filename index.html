@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Animation</title>
+  <style>
+
+
+
+    .svg-container {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+    }
+
+    .svg-container object {
+      width: 450px;
+      height: 350px;
+      margin:10px;
+      background-color: #000; /* Ajouter un fond noir à chaque cadre de SVG */
+    }
+  </style>
+</head>
+<body>
+
+<div class="svg-container">
+    
+  <object type="image/svg+xml" data="animated_brain.svg"></object>
+
+  <object type="image/svg+xml" data="animated_com.svg"></object>
+
+  <object type="image/svg+xml" data="animated_cube.svg"></object>
+
+  <object type="image/svg+xml" data="animated_map.svg"></object>
+
+  <object type="image/svg+xml" data="animated_pc.svg"></object>
+
+  <object type="image/svg+xml" data="animated_pen.svg"></object>
+
+
+</div>
+
+</body>
+</html>
